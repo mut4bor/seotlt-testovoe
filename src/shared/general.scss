@@ -1,0 +1,22 @@
+$bp-320: 320px;
+$bp-425: 425px;
+$bp-768: 768px;
+$bp-1024: 1024px;
+
+$white: #fff;
+$lightGray: #f5f5f5;
+$gray: #666;
+$darkGray: #36434d;
+$blue: #268ef6;
+$blueHover: #107ded;
+
+$containerPaddingX: 20px;
+$containerPaddingXMobile: 10px;
+
+@mixin Ellipsis {
+  display: block;
+  box-sizing: border-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  $white-space: nowrap;
+}

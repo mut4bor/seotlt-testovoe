@@ -1,0 +1,61 @@
+@use '@/shared/general.scss' as *;
+
+@media (min-width: $bp-320) {
+  .app {
+    min-height: 100vh;
+    background-color: $lightGray;
+  }
+
+  .header {
+    background: $white;
+    padding: $containerPaddingX;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: $containerPaddingX;
+    flex-wrap: wrap;
+  }
+
+  .heading {
+    margin: 0;
+    color: $darkGray;
+    font-size: 24px;
+  }
+
+  .addButton {
+    background-color: $blue;
+    color: $white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.15s ease-in-out;
+
+    &:hover {
+      background-color: $blueHover;
+    }
+  }
+
+  .main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: $containerPaddingX;
+  }
+}
+
+@media (max-width: $bp-768) {
+  .header {
+    padding: $containerPaddingXMobile;
+    gap: $containerPaddingXMobile;
+  }
+
+  .addButton {
+    width: 100%;
+  }
+
+  .main {
+    padding: $containerPaddingXMobile;
+  }
+}

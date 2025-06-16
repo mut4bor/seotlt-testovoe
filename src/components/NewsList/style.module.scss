@@ -1,0 +1,23 @@
+@use '@/shared/general.scss' as *;
+
+@media (min-width: $bp-320) {
+  .newsList {
+    display: flex;
+    flex-direction: column;
+    gap: $containerPaddingXMobile;
+  }
+
+  .empty {
+    text-align: center;
+    padding: 40px 20px;
+    color: $gray;
+    font-size: 18px;
+    margin: 0;
+  }
+}
+
+@media (min-width: $bp-768) {
+  .newsList {
+    gap: $containerPaddingX;
+  }
+}
