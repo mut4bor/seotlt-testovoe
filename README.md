@@ -1,6 +1,4 @@
-# NVM Testovoe
-
-Тестовое задание на React.
+# Seotlt Testovoe
 
 ## Установка и настройка
 
@@ -9,8 +7,8 @@
 Склонируйте репозиторий на локальную машину:
 
 ```bash
-git clone https://github.com/mut4bor/nvm-testovoe
-cd nvm-testovoe
+git clone https://github.com/mut4bor/seotlt-testovoe
+cd seotlt-testovoe
 ```
 
 ### 2. Установка зависимостей

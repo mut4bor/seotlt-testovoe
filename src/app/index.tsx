@@ -1,5 +1,5 @@
 import { NewsApp } from '@/components/NewsApp';
-import './style.module.scss';
+import './style.scss';
 
 function App() {
   return <NewsApp />;
